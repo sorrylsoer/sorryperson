@@ -1,0 +1,111 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 20px;
+  background-color: #1f1f1f;
+  color: #d1d1d1;
+}
+
+h1 {
+  color: #ff6b6b;
+  font-size: 36px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+/* Updated Button Styles */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+#buildDisplay {
+  margin-top: 50px;
+  border: 1px solid #444;
+  padding: 40px;
+  background-color: #2f2f2f;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the build display horizontally */
+}
+
+#buildDisplay h2 {
+  color: #ff6b6b;
+  margin-bottom: 20px;
+  font-size: 28px; /* Increase font size for the title */
+}
+
+#buildDisplay p {
+  margin-bottom: 20px;
+  font-size: 20px; /* Increase font size for the text */
+  color: #d1d1d1;
+}
+
+img {
+  max-width: 300px; /* Increase max-width for the images */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(255, 107, 107, 0.5);
+}
+
+li.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1; /* Background color on hover */
+  color: #000; /* Text color on hover */
+}
+
+li.dropdown:hover .dropdown-content {
+  display: block;
+}
+.back-to-home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4CAF50; /* Green background color */
+  border: 1px solid #4CAF50; /* Green border */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-home-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
